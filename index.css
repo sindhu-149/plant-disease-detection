@@ -13,3 +13,95 @@ body{
     color:white;
     text-decoration: none;
 }
+.container{
+    margin-top: 50px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.capture{
+    position: relative;
+   text-align: center;
+    flex: 50%;
+    /* background-color: yellow; */
+}
+.image{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    width:250px;
+    height: 100x;
+}
+
+.content{
+    flex: 50%;
+    /* background-color: pink; */
+} 
+  .centered {
+    font-weight: bold;
+    /* border: 5px solid pink; */
+    color: white;
+    font-size: 40px;
+    width:200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .cam{
+    display: block;
+    margin: 30px auto; 
+  }
+  .head{
+    font-size: 40px;
+    margin: 20px 260px 10px 60px;
+  }
+  .text{
+    /* border: 1px solid green; */
+    font-size: 20px;
+    /* width:500px; */
+    margin: 0px auto;
+    margin: 20px 260px 10px 60px;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: #326b36;
+    text-align: center;
+  }
+  .icon{
+    padding: 20px 70px 15px;
+    width:30px;
+  }
+  .copy{
+    color:white;
+    margin-bottom: 10px;
+  }
+  .contact-text{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid pink; */
+  }
+  .contact-icon{
+    width: 45px;
+    height: 50px;
+  }
+  .text1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0px 20px;
+  }
+  .contact{
+    text-align: center;
+    font-size: 18px;
+  }
+  .info-sub{
+    display: flex;
+  }
+  .two{
+    flex:70%
+  }

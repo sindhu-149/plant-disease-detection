@@ -1,4 +1,4 @@
-<!-- <html>
+<html>
     <head>
         <title>Planr Disease</title>
         <link rel="stylesheet" href="index.css">
@@ -11,69 +11,44 @@
             <a class="nav-link" href="about.html">About</a>
             <a class="nav-link" href="contact.html">contact</a>
         </div>
-        <div>contact</div>
+		<div class="contact">
+        <div class="contact-text">
+			<p class="text1">Contact us</p>
+			<img class="contact-icon" src="https://cdn-icons-png.flaticon.com/512/126/126509.png">
+		</div>
+		<p>For Any Queries & Suggestions Contact Us. We Are Happy To Help</p>
+		<div class="info">
+          <h1>Eco Team</h1>
+		  <div class="info-sub">
+			<img class="icon " style="margin-bottom:-10px;  padding: 0px;"  src="https://cdn-icons-png.flaticon.com/512/9073/9073336.png">
+			<span class="two">  9999998888</span>
+		  </div>
+		  <div>
+			<img class="icon" style="margin-bottom:-10px; padding: 0px ;" src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
+			<span>  ecoteam@gmail.com</span>
+		</div>
+		  <div>
+		    <img class="icon" style="margin-bottom:-10px; padding: 0px ;" src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png">   
+			<span >  https://instagram.com/ecoteam</span>
+		</div>
+		<div>
+		    <img class="icon" style="margin-bottom:-10px; padding: 0px ;" src="https://cdn-icons-png.flaticon.com/512/2504/2504903.png">   
+			<span >  https://facebook.com/ecoteam</span>
+		</div>
+		  <div>
+			<img class="icon" style="margin-bottom:-10px; padding: 0px ;" src="https://cdn-icons-png.flaticon.com/512/2504/2504947.png">
+			<span >  https://twitter.com/ecoteam</span>
+		</div>
+		</div>
+	    </div>
+        <div class="footer">
+            <div>
+                <img class="icon"src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
+                <img class="icon"src="https://cdn-icons-png.flaticon.com/512/2504/2504903.png">
+                <img class="icon"src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png">             
+                <img class="icon"src="https://cdn-icons-png.flaticon.com/512/2504/2504947.png">
+            </div>
+            <div class="copy">© Copyright 2023 By eco-team | All right reserved.</div>
+        </div>
     </body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0" />
-	<title>Web Cam</title>
-	<script>
-	document.addEventListener("DOMContentLoaded", () => {
-		var but = document.getElementById("but");
-		var video = document.getElementById("vid");
-		var mediaDevices = navigator.mediaDevices;
-		vid.muted = true;
-		but.addEventListener("click", () => {
-
-		// Accessing the user camera and video.
-		mediaDevices
-			.getUserMedia({
-			video: true,
-			audio: true,
-			})
-			.then((stream) => {
-
-			// Changing the source of video to current stream.
-			video.srcObject = stream;
-			video.addEventListener("loadedmetadata", () => {
-				video.play();
-			});
-			})
-			.catch(alert);
-		});
-	});
-	</script>
-</head>
-
-<style>
-	div {
-	width: 500px;
-	height: 400px;
-	border: 2px solid black;
-	position: relative;
-	}
-	video {
-	width: 500px;
-	height: 400px;
-	object-fit: cover;
-	}
-</style>
-
-<body>
-	<center>
-	<div>
-		<video id="vid"></video>
-	</div>
-	<br />
-	<button id="but" autoplay>
-		Open WebCam
-	</button>
-	</center>
-</body>
 </html>
