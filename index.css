@@ -1,0 +1,15 @@
+body{
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #326b36
+}
+.nav-link{
+    font-size: 20px;
+    padding: 20px 30px;
+    color:white;
+    text-decoration: none;
+}
