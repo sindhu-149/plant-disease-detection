@@ -101,7 +101,57 @@ body{
   }
   .info-sub{
     display: flex;
+    border:1px solid blue;
+    justify-content: center;
   }
-  .two{
-    flex:70%
+  .icon-text{
+    /* flex: 50%;
+    background-color: yellow; */
+    margin-top: 20px;
+    /* width:100px; */
   }
+  .icon2{
+    /* flex: 50%; */
+    /* background-color: orange; */
+    padding: 20px 70px 15px;
+    width:30px;
+    /* width:100px; */
+  }
+.sindhu{
+  /* border:4px solid pink; */
+  /* background-color: antiquewhite; */
+  width:400px;
+  margin:auto;
+  text-align: start;
+  padding-left: 150px;
+}
+
+.sup{
+  /* border:4px solid pink;
+   background-color: antiquewhite; */
+    width:700px;
+    margin: 30px auto;
+
+}
+
+
+  @media screen and (max-width: 992px) {
+    .container{
+      flex-direction: column;
+     
+    }
+    .image{
+      width:500px;
+    }
+  
+    .head{
+      margin: 0px;
+      padding: 30px 100px;
+
+    }
+    .text{
+      margin: 0px;
+      padding: 30px 100px;
+    }
+  } 
+  
